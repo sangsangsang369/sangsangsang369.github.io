@@ -91,15 +91,8 @@
         var oldw = window.innerWidth;
         var oldh = window.innerHeight;
         
-        const setCanvasSize = () => {
-          canvas.width = '100%';
-          canvas.height = '100%';
-      
-        };
-
-        setCanvasSize();
-
-        window.addEventListener("resize", setCanvasSize);
+          canvas.width = oldh;
+          canvas.height = oldw;
 
         unityShowBanner('점검중');
       } else {
