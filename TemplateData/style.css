@@ -7,8 +7,8 @@ body { padding: 0; margin: 0 }
     top: 100%;
     left: 0
 }
-#unity-canvas { background: #654e0a }
-.unity-mobile #unity-canvas { width: 100%; height: 100% }
+#unity-canvas { background: #110f09 }
+.unity-mobile #unity-canvas { width: 100vh; height: 100vw }
 #unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
 #unity-logo { width: 154px; height: 130px; background: url('unity-logo-dark.png') no-repeat center }
 #unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; margin-left: 6.5px; background: url('progress-bar-empty-dark.png') no-repeat center }
