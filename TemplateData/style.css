@@ -8,7 +8,7 @@ body { padding: 0; margin: 0; background-color: black; }
     left: 0;
     height: 100vh; width: 100vw
 }
-#unity-canvas { background: #02021f }
+#unity-canvas { background: #0aec70 }
 .unity-mobile #unity-canvas { 
     height: 100%; width: 100%;}
 #unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
