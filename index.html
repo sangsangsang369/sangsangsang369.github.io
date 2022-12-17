@@ -92,8 +92,10 @@
         var oldh = window.innerHeight;
         
         const setCanvasSize = () => {
-          canvas.width = oldw;
-          canvas.height = oldh;
+          canvas.width = oldh;
+          canvas.height = oldw;
+          canvas.style.width = '100%';
+          canvas.style.height = '100%'
         };
 
         setCanvasSize();
