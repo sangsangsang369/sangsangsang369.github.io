@@ -8,7 +8,7 @@ body { padding: 0; margin: 0; background-color: black; }
     left: 0;
     height: 100vw; width: 100vh
 }
-#unity-canvas { background-color: rgb(43, 226, 46); }
+#unity-canvas { background-color: rgb(226, 177, 43); }
 
 #unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
 #unity-logo { width: 154px; height: 130px; background: url('unity-logo-dark.png') no-repeat center }
