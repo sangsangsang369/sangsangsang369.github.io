@@ -88,8 +88,9 @@
         // performance, uncomment the following line:
         // config.devicePixelRatio = 1;
 
+        var oldw = window.innerWidth;
         canvas.style.width = window.innerHeight + 'px';
-        canvas.style.height = window.innerwidth + 'px';
+        canvas.style.height = oldw + 'px';
 
         unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
