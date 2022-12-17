@@ -90,10 +90,12 @@
 
         var oldw = window.innerWidth;
         var oldh = window.innerHeight;
-        canvas.style.width = oldh + 'px';
-        canvas.style.height = oldw + 'px';
+        //window.innerHeight = oldw;
+        //window.innerWidth = oldh;
+        canvas.width = oldh + 'px';
+        canvas.height = oldw  + 'px';
 
-        unityShowBanner('WebGL builds are not supported on mobile devices.');
+        unityShowBanner('점검중');
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
