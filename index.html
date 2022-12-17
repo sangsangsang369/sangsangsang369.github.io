@@ -90,10 +90,15 @@
 
         var oldw = window.innerWidth;
         var oldh = window.innerHeight;
-        //window.innerHeight = oldw;
-        //window.innerWidth = oldh;
-        canvas.width = 300 + 'px';
-        canvas.height = 200  + 'px';
+        
+        const setCanvasSize = () => {
+          canvas.width = oldw;
+          canvas.height = oldh;
+        };
+
+        setCanvasSize();
+
+        window.addEventListener("resize", setCanvasSize);
 
         unityShowBanner('점검중');
       } else {
