@@ -89,9 +89,10 @@
         // config.devicePixelRatio = 1;
         
 
-        canvas.style.width = window.innerHeight + 'px';
-        //canvas.style.height = meta.content.width + 'px';
-        
+      
+        canvas.setAttribute('height', 'window.innerWidth');
+        canvas.setAttribute('width', 'window.innerHeight')
+        //canvas.style.width = window.innerHeight + 'px'; 
 
         unityShowBanner('WebGL');
       } else {
