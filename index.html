@@ -90,9 +90,10 @@
         
 
       
-        canvas.setAttribute('height', 'window.innerWidth');
-        canvas.setAttribute('width', 'window.innerHeight')
-        //canvas.style.width = window.innerHeight + 'px'; 
+        //canvas.setAttribute('height', 'window.innerWidth');
+        //canvas.setAttribute('width', 'window.innerHeight')
+        canvas.width = window.innerHeight + 'px'; 
+        canvas.height = window.innerWidth + 'px';
 
         unityShowBanner('WebGL');
       } else {
