@@ -89,7 +89,8 @@
         // config.devicePixelRatio = 1;
 
         var oldw = window.innerWidth;
-        canvas.style.width = window.innerHeight + 'px';
+        var oldh = window.innerHeight;
+        canvas.style.width = oldh + 'px';
         canvas.style.height = oldw + 'px';
 
         unityShowBanner('WebGL builds are not supported on mobile devices.');
