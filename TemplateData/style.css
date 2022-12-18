@@ -3,11 +3,11 @@ body { padding: 0; margin: 0 }
 #unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
 #unity-container.unity-mobile 
 {
-    transform: rotate(-90deg);
     width: 100%;
     height: 100%;  
+    transform: rotate(-90deg);
 }
-#unity-canvas { background: #6611ee }
+#unity-canvas { background: #11eed8 }
 .unity-mobile #unity-canvas 
 { 
     width: 100%;
