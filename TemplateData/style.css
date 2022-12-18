@@ -7,7 +7,7 @@ body { padding: 0; margin: 0 }
     height: 100%;  
     transform: rotate(-90deg);
 }
-#unity-canvas { background: #8311ee }
+#unity-canvas { background: #11ee9d }
 .unity-mobile #unity-canvas 
 { 
     width: 100%;
